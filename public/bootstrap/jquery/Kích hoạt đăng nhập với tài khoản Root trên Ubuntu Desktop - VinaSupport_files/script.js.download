@@ -1,0 +1,27 @@
+$(document).ready(function(){
+    // Menu trigger
+    $('.button-menu-mobile, .button-menu-tutorial').sideNav();
+
+    setTimeout(function(){
+        // Set height for card images
+        var relatedCardImage = $('.related-post .card-image');
+        if (relatedCardImage.length > 2) {
+            var maxHeight = 0;
+            relatedCardImage.each(function () {
+                if ($(this).height() > maxHeight) {
+                    maxHeight = $(this).height();
+                }
+            });
+            relatedCardImage.height(maxHeight);
+        }
+    }, 300);
+
+    $(document).on('click', '#btn-open-search-form-mobile', function (event) {
+        $('#search-form-mobile').fadeIn();
+        event.preventDefault();
+    });
+    $(document).on('click', '#btn-close-search-form-mobile', function (event) {
+        $('#search-form-mobile').fadeOut('slow');
+        event.preventDefault();
+    })
+});

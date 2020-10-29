@@ -1,0 +1,254 @@
+/* Comment List
+-------------------------------------------------------------- */
+h2.comments-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+ol.comment-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-indent: 0;
+}
+
+ol.comment-list li {
+    border: 3px solid #ddd;
+    height: 1%;
+    margin: 0 0 10px;
+    padding: 8px 7px 8px 80px;
+    position: relative;
+}
+
+ol.comment-list li.alt {
+
+}
+
+ol.comment-list li.bypostauthor {
+
+}
+
+ol.comment-list li.byuser {
+
+}
+
+ol.comment-list li.comment-author-admin {
+
+}
+
+ol.comment-list li.comment {
+
+}
+
+ol.comment-list li div.comment-author {
+    /*padding: 0 170px 0 0;*/
+}
+
+ol.comment-list li div.vcard {
+    font: bold 14px/1.4 helvetica, arial, sans-serif;
+}
+
+ol.comment-list li div.vcard cite.fn {
+    font-style: normal;
+}
+
+ol.comment-list li div.vcard cite.fn a.url {
+    color: #c00;
+    text-decoration: none;
+}
+
+ol.comment-list li div.vcard cite.fn a.url:hover {
+    color: #000;
+}
+
+ol.comment-list li div.vcard img.avatar {
+    border: 3px solid #ddd;
+    left: 10px;
+    position: absolute;
+    top: 10px;
+    /*width: 40px;*/
+    /*height: 40px;*/
+}
+
+ol.comment-list li div.vcard img.avatar-32 {
+
+}
+
+ol.comment-list li div.vcard img.photo {
+
+}
+
+ol.comment-list li div.vcard span.says {
+
+}
+
+ol.comment-list li div.commentmetadata {
+
+}
+
+ol.comment-list li div.comment-meta {
+    font: bold 12px/1.4 helvetica, arial, sans-serif;
+    position: absolute;
+    right: 10px;
+    text-align: right;
+    top: 5px;
+}
+
+ol.comment-list li div.comment-meta a {
+    color: #333;
+    text-decoration: none;
+}
+
+ol.comment-list li div.comment-meta a:hover {
+    color: #000;
+}
+
+ol.comment-list li p {
+    font: normal 13px/1.4 helvetica, arial, sans-serif;
+    margin: 2px 0;
+}
+
+ol.comment-list li ul {
+    font: normal 12px/1.4 helvetica, arial, sans-serif;
+    list-style: square;
+    margin: 0 0 1em;
+    padding: 0;
+    text-indent: 0;
+}
+
+ol.comment-list li div.reply {
+    background: #666;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    color: #fff;
+    font: bold 10px/1 helvetica, arial, sans-serif;
+    padding: 5px 10px;
+    text-align: center;
+    display: inline-block;
+
+}
+ol.comment-list li div.comment-content {
+    margin: 8px 0 10px 0;
+    min-height: 25px;
+}
+
+ol.comment-list li div.reply:hover {
+    background: #c30;
+}
+
+ol.comment-list li div.reply a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+ol.comment-list li ul.children {
+    list-style: none;
+    margin: 1em 0 0;
+    text-indent: 0;
+}
+
+ol.comment-list li ul.children li {
+
+}
+
+ol.comment-list li ul.children li.alt {
+
+}
+
+ol.comment-list li ul.children li.bypostauthor {
+
+}
+
+ol.comment-list li ul.children li.byuser {
+
+}
+
+ol.comment-list li ul.children li.comment {
+
+}
+
+ol.comment-list li ul.children li.comment-author-admin {
+
+}
+
+ol.comment-list li ul.children li.depth-2 {
+    margin: 0 0 .25em;
+}
+
+ol.comment-list li ul.children li.depth-3 {
+    margin: 0 0 .25em;
+}
+
+ol.comment-list li ul.children li.depth-4 {
+    margin: 0 0 .25em;
+}
+
+ol.comment-list li ul.children li.depth-5 {
+
+}
+
+ol.comment-list li ul.children li.odd {
+
+}
+
+ol.comment-list li.even {
+    background: #f7f7f7;
+}
+
+ol.comment-list li.odd {
+    background: #fff;
+}
+
+ol.comment-list li.parent {
+
+}
+
+ol.comment-list li.pingback {
+
+}
+
+ol.comment-list li.pingback.parent {
+
+}
+
+ol.comment-list li.pingback div.vcard {
+    padding: 0 170px 0 0;
+}
+
+ol.comment-list li.thread-alt {
+
+}
+
+ol.comment-list li.thread-even {
+
+}
+
+ol.comment-list li.thread-odd {
+
+}
+
+/* Comment Form
+-------------------------------------------------------------- */
+#respond {
+    margin-top: 30px;
+}
+
+#respond .row {
+    margin-bottom: 0;
+}
+
+#respond h3#reply-title {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#respond input, #respond textarea {
+    background: #f5f5f5;
+}
+
+#respond label.active {
+    font-size: 20px;
+}
